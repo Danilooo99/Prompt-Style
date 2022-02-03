@@ -52,6 +52,7 @@ To do this, the following steps must be followed:
 ```bash
 visudo
 ```                       
+**NOTE**: You could also directly edit the sudoers file (```nano /etc/sudoers```).
 
 - And add below the line **"root ALL=(ALL) ALL"**, the following:
 
@@ -65,22 +66,26 @@ visudo
 root ALL=(ALL) ALL
 danilo ALL=(ALL) ALL
 ``` 
+Reboot the system for the changes to take effect:
 
+```bash
+reboot
+```
 
 ## Installation:
 For ```Arch Linux``` or ```Manjaro```:
 ```bash
-sudo yes | pacman -S wget &>/dev/null && cd ~ && sudo wget https://raw.githubusercontent.com/Danilooo99/Prompt-Style/master/scripts_bash/promp_style/prompt-theme.sh && chmod a+x ~/prompt-theme.sh
+sudo yes | pacman -S wget &>/dev/null && cd ~ && sudo wget https://raw.githubusercontent.com/Danilooo99/Prompt-Style/master/scripts_bash/promp_style/prompt-theme.sh && sudo chmod a+x ~/prompt-theme.sh
 ```
 
 For ```CentOS``` or ```Fedora```:
 ```bash
-sudo yum -y install wget &> /dev/null && cd ~ && sudo wget https://raw.githubusercontent.com/Danilooo99/Prompt-Style/master/scripts_bash/promp_style/prompt-theme.sh && chmod a+x ~/prompt-theme.sh
+sudo yum -y install wget &> /dev/null && cd ~ && sudo wget https://raw.githubusercontent.com/Danilooo99/Prompt-Style/master/scripts_bash/promp_style/prompt-theme.sh && sudo chmod a+x ~/prompt-theme.sh
 ```
 
 For ```Ubuntu```, ```Debian``` or ```Kali Linux```:
 ```bash
-sudo apt-get install wget -y &>/dev/null && cd ~ && sudo wget https://raw.githubusercontent.com/Danilooo99/Prompt-Style/master/scripts_bash/promp_style/prompt-theme.sh && chmod a+x ~/prompt-theme.sh
+sudo apt-get install wget -y &>/dev/null && cd ~ && sudo wget https://raw.githubusercontent.com/Danilooo99/Prompt-Style/master/scripts_bash/promp_style/prompt-theme.sh && sudo chmod a+x ~/prompt-theme.sh
 ```
 After having executed the previous command in the corresponding Linux distribution, the script will be in the user's home directory ```(~)```.
 
@@ -94,7 +99,7 @@ It's **VERY IMPORTANT** that the script be executed from the ```user home direct
 To run the script it must be run in the Linux bash terminal:
 
 ```bash
-cd ~ && ./prompt-theme.sh [Name of theme]
+cd ~ && sudo ./prompt-theme.sh [Name of theme]
 ```
 
 You can see the list of available themes [here](https://github.com/Danilooo99/Prompt-Style/tree/master/scripts_bash/promp_style/themes) or by running the script with the -h option (```./prompt-theme.sh -h```).
@@ -103,7 +108,7 @@ You can see the list of available themes [here](https://github.com/Danilooo99/Pr
 If the script is executed passing the theme ```"brainy"``` as an argument, for example:
 
 ```bash
-cd ~ && ./prompt-theme.sh brainy
+cd ~ && sudo ./prompt-theme.sh brainy
 ```
 Then you must **close** and **reopen** the **bash terminal** for the changes to take effect.
 
