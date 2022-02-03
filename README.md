@@ -195,4 +195,3 @@ Execute in home directory: ```./prompt-theme.sh agnoster```
 | **[figlet](http://www.figlet.org/)**                                  | Text banner generator    |
 | **[wget](https://www.gnu.org/software/wget/)**                        | Content download tool    |
 
-
