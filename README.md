@@ -14,7 +14,6 @@ Edit the style of your Linux bash shell prompt in the fastest way with this scri
 ![screen2](https://user-images.githubusercontent.com/55488676/152246950-ddf5af79-f016-451a-b02b-bdee8db75ab2.png)
 
 
-
 ## Description of the script:
 
 The ```prompt-theme.sh``` script customizes the Linux bash terminal prompt with different themes.
@@ -96,7 +95,6 @@ After having executed the previous command in the corresponding Linux distributi
 ## Script execution:
 
 It's **VERY IMPORTANT** that the script be executed from the ```user home directory```. To do this, the script must first be in the user's home directory and with the appropriate execution permissions, a requirement that has been achieved by executing the corresponding command in the **"Installation"** section of this same file.
-
 
 <br />
 
