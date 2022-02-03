@@ -2,7 +2,7 @@
 
 ***Language***
 
-- [🇪🇸 Español](./README.es.md)
+- [🇪🇸 Spanish](./README.es.md)
 - ![united-kingdom](https://user-images.githubusercontent.com/55488676/152346624-aa99712d-5039-4382-af6e-90f71fe483c9.png)
  English
 
