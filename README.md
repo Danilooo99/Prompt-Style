@@ -95,7 +95,7 @@ After having executed the previous command in the corresponding Linux distributi
 
 ## Script execution:
 
-It's **VERY IMPORTANT** that the script be executed from the ```user home directory```. To do this, the script must first be in the user's home directory and with the appropriate execution permissions, a requirement that has been achieved by executing the corresponding command in the **"Execution of the script"** section of this same file.
+It's **VERY IMPORTANT** that the script be executed from the ```user home directory```. To do this, the script must first be in the user's home directory and with the appropriate execution permissions, a requirement that has been achieved by executing the corresponding command in the **"Installation"** section of this same file.
 
 
 <br />
