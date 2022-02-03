@@ -1,13 +1,17 @@
 # Prompt-Style
 
+***Language***
+
+- [🇪🇸 Español](./README.es.md)
+- ![united-kingdom](https://user-images.githubusercontent.com/55488676/152346624-aa99712d-5039-4382-af6e-90f71fe483c9.png)
+ English
+
 Edit the style of your Linux bash shell prompt in the fastest way with this script!
 
 
 ![screen1](https://user-images.githubusercontent.com/55488676/152246886-ac3f82da-eacb-4c73-ae10-0330fbe80db9.png)
 
 ![screen2](https://user-images.githubusercontent.com/55488676/152246950-ddf5af79-f016-451a-b02b-bdee8db75ab2.png)
-
-
 
 
 
