@@ -26,6 +26,7 @@ Also, this script is compatible with differents Linux distributions such as:
 - [Fedora](https://getfedora.org/es/)
 - [Kali Linux](https://www.kali.org/)
 - [Manjaro](https://manjaro.org/)
+- [Oracle Linux](https://www.oracle.com/es/linux/)
 - [Ubuntu](https://ubuntu.com/)
 
 ## Requirements
