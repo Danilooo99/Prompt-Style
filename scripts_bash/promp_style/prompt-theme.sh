@@ -121,6 +121,7 @@ function compatibility_distros_linux () {
     arch_version=$(cat /etc/os-release | grep -i "^name" | grep -i "Arch*" | wc -l)
     manjaro_version=$(cat /etc/os-release | grep -i "^name" | grep -i "Manja*" | wc -l)
     centos_version=$(cat /etc/os-release | grep -i "^name" | grep -i "Centos*" | wc -l)
+    oracle_version=$(cat /etc/os-release | grep -i "^name" | grep -i "Oracle*" | wc -l)
     fedora_version=$(cat /etc/os-release | grep -i "^name" | grep -i "Fedor*" | wc -l)
     ubuntu_version=$(cat /etc/os-release | grep -i "^name" | grep -i "Ubuntu*" | wc -l)
     debian_version=$(cat /etc/os-release | grep -i "^name" | grep -i "Debia*" | wc -l)
@@ -132,7 +133,7 @@ function compatibility_distros_linux () {
         sudo yes | pacman -S git &>/dev/null
         sudo yes | pacman -S figlet &>/dev/null
     else
-        if (( $centos_version != 0 || $fedora_version !=0 ))
+        if (( $centos_version != 0 || $fedora_version !=0 || $oracle_version !=0 ))
         then
             sudo yum -y install wget &>/dev/null
             sudo yum -y install git &>/dev/null
