@@ -26,6 +26,7 @@ Además, este script es compatible con diferentes distribuciones de Linux como:
 - [Fedora](https://getfedora.org/es/)
 - [Kali Linux](https://www.kali.org/)
 - [Manjaro](https://manjaro.org/)
+- [Oracle Linux](https://www.oracle.com/es/linux/)
 - [Ubuntu](https://ubuntu.com/)
 
 ## Requisitos
@@ -83,7 +84,7 @@ Para ```Arch Linux``` o ```Manjaro```:
 sudo yes | pacman -S wget &>/dev/null && cd ~ && sudo wget https://raw.githubusercontent.com/Danilooo99/Prompt-Style/master/scripts_bash/promp_style/prompt-theme.sh && sudo chmod a+x ~/prompt-theme.sh
 ```
 
-Para ```CentOS``` o ```Fedora```:
+Para ```CentOS```, ```Fedora``` o ```Oracle Linux```:
 ```bash
 sudo yum -y install wget &> /dev/null && cd ~ && sudo wget https://raw.githubusercontent.com/Danilooo99/Prompt-Style/master/scripts_bash/promp_style/prompt-theme.sh && sudo chmod a+x ~/prompt-theme.sh
 ```
