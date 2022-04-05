@@ -82,7 +82,7 @@ For ```Arch Linux``` or ```Manjaro```:
 sudo yes | pacman -S wget &>/dev/null && cd ~ && sudo wget https://raw.githubusercontent.com/Danilooo99/Prompt-Style/master/scripts_bash/promp_style/prompt-theme.sh && sudo chmod a+x ~/prompt-theme.sh
 ```
 
-For ```CentOS``` or ```Fedora```:
+For ```CentOS```, ```Fedora``` or ```Oracle Linux```:
 ```bash
 sudo yum -y install wget &> /dev/null && cd ~ && sudo wget https://raw.githubusercontent.com/Danilooo99/Prompt-Style/master/scripts_bash/promp_style/prompt-theme.sh && sudo chmod a+x ~/prompt-theme.sh
 ```
